@@ -1,0 +1,37 @@
+{
+  "name": "testingtester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "record": "babel-node polly.js",
+    "test": "jest --coverage --reporters default jest-stare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tilit/testingTester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tilit/testingTester/issues"
+  },
+  "homepage": "https://github.com/tilit/testingTester#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@pollyjs/adapter-fetch": "^5.0.0",
+    "@pollyjs/adapter-xhr": "^5.0.0",
+    "@pollyjs/core": "^5.0.0",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "jest-stare": "^2.0.1",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "@pollyjs/adapter-node-http": "^5.0.0",
+    "@pollyjs/persister-fs": "^5.0.0",
+    "setup-polly-jest": "^0.9.1"
+  }
+}
